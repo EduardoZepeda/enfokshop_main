@@ -12,6 +12,7 @@
 }
 
 .main {
+  position: relative;
   width: 100vw;
   height: 100vh;
   background: url(https://res.cloudinary.com/dwrscezd2/image/upload/v1738556998/pexels-cottonbro-9121151_1_dkibmi.jpg);
@@ -19,6 +20,15 @@
   display: flex;
   align-items: center;
 }
+
+.photo-credits a {
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
 
 .intro {
   margin: 150px;
